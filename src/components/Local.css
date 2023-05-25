@@ -1,0 +1,66 @@
+/* GeolocationComponent.css */
+
+.geolocation-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .geolocation-container h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .geolocation-container p {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .geolocation-container button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .geolocation-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-container {
+    margin-top: 20px;
+  }
+  
+  .geolocation-container .error-message {
+    color: red;
+    margin-top: 20px;
+  }
+  
+  /* Animation keyframes for button */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

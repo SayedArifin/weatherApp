@@ -1,0 +1,135 @@
+.weather-app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100%;
+	background-size: cover;
+	background-position: center;
+  }
+  
+  .weather-card {
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	animation: fade-in 0.5s ease-in-out;
+  }
+  
+  @keyframes fade-in {
+	from {
+	  opacity: 0;
+	  transform: translateY(20px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+  .weather-info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  
+  .date-location {
+	margin-bottom: 10px;
+  }
+  
+  .date-dayname {
+	font-size: 24px;
+	margin-bottom: 5px;
+  }
+  
+  .date-day {
+	font-size: 16px;
+	color: #888;
+	margin-bottom: 5px;
+  }
+  
+  .location-icon {
+	font-size: 16px;
+	margin-right: 5px;
+	color: #888;
+  }
+  
+  .location {
+	font-size: 16px;
+	margin-bottom: 5px;
+  }
+  
+  .weather-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  
+  .weather-icon {
+	width: 100px;
+	height: 100px;
+	
+  }
+  
+  .weather-temp {
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  
+  .weather-desc {
+	font-size: 24px;
+	color: #888;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+  }
+  
+  .weather-details {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+  }
+  
+  .weather-detail {
+	text-align: center;
+  }
+  
+  .title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+  }
+  
+  .value {
+	font-size: 16px;
+	color: #888;
+	margin-right: 10px;
+  }
+  
+  .location-input {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .location-input input {
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	outline: none;
+  }
+  
+  p {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #4d3f3f;
+  }
+
+  
+  
+  /* Add any additional styles or modifications as needed */
+  
